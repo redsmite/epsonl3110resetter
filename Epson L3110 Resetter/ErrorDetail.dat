@@ -1,0 +1,263 @@
+[SCN_100001]
+MEANING="ADF PID excess speed error"
+DESCRIPTION="- Failed to read the scanner motor encoder\r\n   1. Contamination of the scanner encoder scale\r\n   2. Damage or skew of the scanner encoder FFC\r\n   3. Failure of the scanner encoder sensor\r\n- Failure of the scanner motor driver\r\n   4. Failure of the main board"
+
+[SCN_100002]
+MEANING="ADF PID reverse error"
+DESCRIPTION="- Paper feed fails, stopped by obstacles\r\n   1. Paper feed was stopped by;\r\n     - Obstacles such as jammed paper\r\n     - Overload of the paper feed mechanism\r\n     - Disengaging or tooth breakage of wheel train\r\n        of the paper feed mechanism\r\n- Failed to read the scanner motor encoder\r\n   2. Jumping of the scanner motor gears\r\n   3. Contamination of the scanner encoder scale\r\n   4. Damage or skew of the scanner encoder FFC\r\n   5. Failure of the scanner encoder sensor\r\n   6. Failure of the main board"
+
+[SCN_100003]
+MEANING="ADF PID lock error"
+DESCRIPTION="- The scanner motor did not run or obstacles exist in the paper path\r\n1. Overload of the paper feed mechanism\r\n2. Disengaging or breakage of the gears\r\n- Failed to read the scanner motor encoder\r\n   3. Contamination of the scanner encoder scale\r\n   4. Disconnection, break, skew or damage of the scanner encoder FFC\r\n   5. Failure of the scanner encoder sensor\r\n   6. Failure of the scanner motor (the lead wire\r\n       is broken or the connector is disconnected)\r\n   7. Failure of the main board"
+
+[SCN_100005]
+MEANING="ADF PID excess load error"
+DESCRIPTION="- The scanner motor stopped running in the middle of the operation\r\n   1. The ADF was stopped by;\r\n     - Obstacles such as jammed paper\r\n     - Overload of the paper feed mechanism\r\n     - Disengaging or breakage of the gears\r\n- Failed to read the scanner motor encoder\r\n   2. Jumping of the scanner motor gears\r\n   3. Contamination of the scanner encoder scale\r\n   4. Disconnection, break, skew or damage\r\n       of the scanner motor cable/encoder FFC\r\n   5. Failure of the scanner motor (not completely broken)\r\n   6. Failure of the main board"
+
+[SCN_100006]
+MEANING="ADF PID driving time error"
+DESCRIPTION="Malfunction or crash of the firmware"
+
+[SCN_100009]
+MEANING="ADF BS+ excess speed error"
+DESCRIPTION="- Failed to read the scanner motor encoder\r\n   1. Contamination of the scanner encoder scale\r\n   2. Damage or skew of the scanner encoder FFC\r\n   3. Failure of the scanner encoder sensor\r\n- Failure of the scanner motor driver\r\n   4. Failure of the main board"
+
+[SCN_100010]
+MEANING="ADF BS+ reverse error"
+DESCRIPTION="- Paper feed fails, stopped by obstacles\r\n   1. Paper feed was stopped by;\r\n     - Obstacles such as jammed paper\r\n     - Overload of the paper feed mechanism\r\n     - Disengaging or tooth breakage of wheel train\r\n        of the paper feed mechanism\r\n- Failed to read the scanner motor encoder\r\n   2. Jumping of the scanner motor gears\r\n   3. Contamination of thescanner encoder scale\r\n   4. Damage or skew of the scanner encoder FFC\r\n   5. Failure of the scanner encoder sensor\r\n   6. Failure of the main board"
+
+[SCN_100011]
+MEANING="ADF BS+ lock error"
+DESCRIPTION="- The scanner motor did not run\r\n   1. The ADF was stopped by;\r\n     - Obstacles such as jammed paper\r\n     - Overload of the mechanism\r\n     - Disengaging or breakage of the gears\r\n- Failed to read the scanner encoder\r\n   2. Contamination of the scanner encoder scale\r\n   3. Disconnection, break, skew or damage\r\n       of the scanner motor cable/encoder FFC\r\n   4. Failure of the scanner encoder sensor\r\n   5. Failure of the scanner motor (the lead wire is broken\r\n       or the connector is disconnected)\r\n   6. Failure of the main board"
+
+[SCN_100013]
+MEANING="ADF BS+ excess load error"
+DESCRIPTION="- The scanner motor stopped running in the middle of the operation\r\n   1. The ADF was stopped by;\r\n     - Obstacles such as jammed paper\r\n     - Overload of the paper feed mechanism\r\n     - Disengaging or tooth breakage of wheel train\r\n        of the scanner gears\r\n- Failed to read the ADF motor encoder\r\n   2. Jumping of the scanner motor gears\r\n   3. Contamination of the ADF encoder scale\r\n   4. Failure of the scanner motor (not completely broken)\r\n   5. Failure of the main board"
+
+[SCN_100014]
+MEANING="ADF BS+ driving time error"
+DESCRIPTION="Malfunction or crash of the firmware"
+
+[SCN_100016]
+MEANING="HP detection failure"
+DESCRIPTION="- The scanner CR could not return to its home.\r\n   1. Damage or disengaging of wheel train of the drive mechanism\r\n   2. Disengaging, fraying, jumping of the timing belt\r\n- Failed to read the white standard/home patterns\r\n   3. Disconnection, break, skew or damage of the scanner FFC\r\n   4. Failure of the CIS unit\r\n   5. Failure of the scanner housing\r\n   6. Failure of the main board"
+
+[SCN_100017]
+MEANING="Contact detection distance exceeded"
+DESCRIPTION="- The scanner CR cannot completely reach the home (Right side)\r\n   1. Damage or disengaging of wheel train of the drive mechanism\r\n- Failed to read the scanner encoder\r\n   2. Damage or skew of the scanner FFC\r\n   3. Failure of the CIS unit\r\n   4. Failure of the scanner housing\r\n   5. Failure of the main board"
+
+[SCN_100018]
+MEANING="Opposite side contact detection distance
+exceeded error"
+DESCRIPTION="- The scanner CR cannot completely reach the opposite side of the home (right side)\r\n   1. Damage or disengaging of wheel train of the drive mechanism\r\n- Failed to read the scanner encoder\r\n   2. Damage or skew of the scanner FFC\r\n   3. Failure of the CIS unit\r\n   4. Failure of the scanner housing\r\n   5. Failure of the main board"
+
+[SCN_100019]
+MEANING="Wrong contact detection distance error"
+DESCRIPTION="1. CIS Unit failure\r\n2. Scanner Housing failure (Including wrong attachment of the origin mark)\r\n3. Main Board failure\r\n4. Scanner FFC failure / Scanner FFC connection failure\r\n5. Scanner Motor failure / Scanner Motor connection failure"
+
+[SCN_100020]
+MEANING="Measurement error"
+DESCRIPTION="- Overload of the scanner drive mechanism\r\n- Failure of the scanner motor"
+
+[SCN_100032]
+MEANING="LED light failure"
+DESCRIPTION="- Failure of the CIS LED light (RGB)\r\n1. Disconnection, break, skew or damage of the scanner FFC\r\n2. Failure of the scanner CIS unit\r\n3. Failure of the main board"
+
+[SCN_100048]
+MEANING="Option error"
+DESCRIPTION="使用していない"
+
+[SCN_100054]
+MEANING="Paper jam error"
+DESCRIPTION="- No jammed paper is remaining but the sensor does not turn off\r\n   1. Failure of the ADF PE sensor\r\n   2. Failure of the cable\r\n- Jammed paper is remaining\r\n- The paper feed rollers and paper conveying rollers slip too much\r\n   At power-on, during paper feed, during scanning"
+
+[SCN_100065]
+MEANING="FB PID excess speed error"
+DESCRIPTION="- Failed to read the scanner encoder\r\n   1. Contamination of the scanner encoder scale\r\n   2. Damage or skew of the scanner FFC\r\n   3. Failure of the scanner encoder sensor\r\n- Failure of the scanner motor driver\r\n   4. Failure of the main board"
+
+[SCN_100066]
+MEANING="FB PID reverse error"
+DESCRIPTION="- Operation failure of the scanner motor\r\n   1. The scanning operation was stopped by;\r\n     - Disengaging of the scanner CR\r\n     - Disengaging of the scanner motor pulley\r\n        or cracking of the scanner motor gears\r\n- Failed to read the scanner encoder\r\n   2. Contamination of the scanner encoder\r\n   3. Damage or skew of the scanner FFC\r\n   4. Failure of the scanner encoder sensor\r\n   5. Failure of the main board"
+
+[SCN_100067]
+MEANING="FB PID lock error"
+DESCRIPTION="- The scanner motor did not run\r\n   1. The scanning operation was stopped by;\r\n     - Disengaging of the scanner CR\r\n     - Disengaging of the scanner motor pulley\r\n        or cracking of the scanner motor gears\r\n- Failed to read the CR motor encoder\r\n   2. Contamination of the scanner encoder\r\n   3. Damage or skew of the scanner FFC\r\n   4. Failure of the scanner encoder sensor\r\n   5. Failure of the scanner motor (the lead wire is broken\r\n       or the connector is disconnected)\r\n   6. Failure of the main board"
+
+[SCN_100068]
+MEANING="FB PID acceleration lock error"
+DESCRIPTION="- The scanner motor did not run\r\n   1. The scanning operation was stopped by;\r\n     - Disengaging of the scanner CR\r\n     - Disengaging of the scanner motor pulley\r\n        or cracking of the scanner motor gears\r\n- Failed to read the scanner motor encoder\r\n   2. Contamination of the scanner encoder\r\n   3. Damage or skew of the scanner FFC\r\n   4. Failure of the scanner encoder sensor\r\n   5. Failure of the scanner motor\r\n   6. Failure of the main board"
+
+[SCN_100069]
+MEANING="FB PID excess load error"
+DESCRIPTION="- The scanner motor stopped running in the middle of the operation\r\n   1. The scanning operation was stopped by;\r\n     - Disengaging of the scanner CR\r\n     - Disengaging of the scanner motor pulley\r\n        or cracking of the scanner motor gears\r\n- Failed to read the scanner motor encoder\r\n   2. Contamination of the scanner encoder\r\n   3. Disconnection, break, skew or damage of the scanner FFC\r\n   4. Failure of the scanner encoder sensor\r\n   5. Failure of the scanner motor (not completely broken)\r\n   6. Failure of the main board"
+
+[SCN_100070]
+MEANING="FB PID driving time error"
+DESCRIPTION="Malfunction or crash of the firmware"
+
+[SCN_100073]
+MEANING="FB BS+ excess speed error"
+DESCRIPTION="- Failed to read the scanner encoder\r\n   1. Contamination of the scanner encoder scale\r\n   2. Damage or skew of the scanner FFC\r\n   3. Failure of the scanner encoder sensor\r\n- Failure of the scanner motor driver\r\n   4. Failure of the main board"
+
+[SCN_100074]
+MEANING="FB BS+ reverse error"
+DESCRIPTION="- Operation failure of the scanner motor\r\n   1. The scanning operation was stopped by;\r\n     - Disengaging of the scanner CR\r\n     - Disengaging of the scanner motor pulley\r\n        or cracking of the scanner motor gears\r\n- Failed to read the scanner encoder\r\n   2. Contamination of the scanner encoder\r\n   3. Damage or skew of the scanner FFC\r\n   4. Failure of the scanner encoder sensor\r\n   5. Failure of the main board"
+
+[SCN_100075]
+MEANING="FB BS+ lock error"
+DESCRIPTION="- The scanner motor did not run\r\n   1. The scanning operation was stopped by;\r\n     - Disengaging of the scanner CR\r\n     - Disengaging of the scanner motor pulley\r\n        or cracking of the scanner motor gears\r\n- Failed to read the CR motor encoder\r\n   2. Contamination of the scanner encoder\r\n   3. Damage or skew of the scanner FFC\r\n   4. Failure of the scanner encoder sensor\r\n   5. Failure of the scanner motor\r\n   6. Failure of the main board"
+
+[SCN_100077]
+MEANING="FB BS+ excess load error"
+DESCRIPTION="- The scanner motor stopped running in the middle of the operation\r\n   1. The scanning operation was stopped by;\r\n     - Disengaging of the scanner CR\r\n     - Disengaging of the scanner motor pulley\r\n        or cracking of the scanner motor gears\r\n- Failed to read the scanner motor encoder\r\n   2. Contamination of the scanner encoder\r\n   3. Failure of the scanner motor (not completely broken)\r\n   4. Failure of the main board"
+
+[SCN_100078]
+MEANING="FB BS+ driving time error"
+DESCRIPTION="Malfunction or crash of the firmware"
+
+[PRN_000020]
+MEANING="CR PID driving time error"
+DESCRIPTION="Malfunction or crash of the firmware"
+
+[PRN_000021]
+MEANING="CR PID excess load error"
+DESCRIPTION="- The CR motor stopped running in the middle of the operation\r\n   1. The CR was stopped by;\r\n     - Obstacles such as jammed paper\r\n     - Overload of the mechanism\r\n     - Interfere with the ink system\r\n     - Disengaging, fraying, jumping of the timing belt\r\n     - Crack or disengaging of the gear, or the APG\r\n       lever interferes with the CR\r\n- Failed to read the CR encoder\r\n   2. Contamination of the CR encoder scale\r\n   3. Failure of the CR motor (not completely broken)\r\n   4. Failure of the main board"
+
+[PRN_000022]
+MEANING="CR PID excess speed error"
+DESCRIPTION="- Failed to read the CR encoder\r\n   1. Contamination of the CR encoder scale\r\n   2. Damage or skew of the CR encoder FFC\r\n   3. Failure of the CR encoder sensor\r\n- Failure of the CR motor driver\r\n   4. Failure of the main board"
+
+[PRN_000023]
+MEANING="CR PID reverse error"
+DESCRIPTION="- Operation failure of the CR motor, stopped by obstacles\r\n   1. CR was stopped by;\r\n     - Obstacles such as jammed paper\r\n     - Interfere with the ink system\r\n     - Disengaging or breakage of the gears\r\n- Failed to read the CR encoder\r\n   2. Jumping of the CR timing belt\r\n   3. Contamination of the CR encoder scale\r\n   4. Damage or skew of the CR encoder FFC\r\n   5. Failure of the CR encoder sensor\r\n   6. Failure of the main board"
+
+[PRN_000024]
+MEANING="CR PID lock error"
+DESCRIPTION="- The CR motor did not run, or the CR could not move smoothly\r\n   1. Overload of the CR\r\n- Failed to read the CR encoder\r\n   2. The timing belt become frayed or jumping\r\n   3. Contamination of the CR encoder scale\r\n   4. Disconnection, break, skew or damage of the CR encoder FFC\r\n   5. Failure of the CR encoder sensor\r\n   6. Failure of the CR motor (the lead wire is broken\r\n       or the connector is disconnected)\r\n   7. Failure of the main board"
+
+[PRN_000025]
+MEANING="CR PID speed fall error"
+DESCRIPTION="- Operation failure of the CR\r\n   1. The CR was stopped by;\r\n     - Obstacles such as jammed paper\r\n     - Overload of the mechanism\r\n     - Interfere with the ink system\r\n- Failed to read the CR motor encoder\r\n   2. The timing belt become loosened or jumping\r\n   3. Contamination of the CR encoder scale\r\n   4. Damage or skew of the CR encoder FFC\r\n   5. Failure of the CR motor\r\n   6. Failure of the main board"
+
+[PRN_000030]
+MEANING="CR load position driving time error"
+DESCRIPTION="Malfunction or crash of the firmware"
+
+[PRN_000031]
+MEANING="CR load position excess load error"
+DESCRIPTION="- The CR motor stopped running in the middle of the operation\r\n   1. The CR was stopped by;\r\n     - Obstacles such as jammed paper\r\n     - Overload of the mechanism\r\n     - Interfere with the ink system\r\n     - Disengaging or breakage of the gears\r\n     - Disengaging, fraying, jumping of the timing belt\r\n- Failed to read the CR encoder\r\n   2. Contamination of the CR encoder scale\r\n   3. Failure of the CR motor (not completely broken)\r\n   4. Failure of the main board"
+
+[PRN_000032]
+MEANING="CR load position excess speed error"
+DESCRIPTION="- Failed to read the CR encoder\r\n   1. Contamination of the CR encoder scale\r\n   2. Damage or skew of the CR encoder FFC\r\n   3. Failure of the CR encoder sensor\r\n- Failure of the CR motor driver\r\n   4. Failure of the main board"
+
+[PRN_000033]
+MEANING="CR load position reverse error"
+DESCRIPTION="- Operation failure of the CR motor, stopped by obstacles\r\n   1. CR was stopped by;\r\n     - Obstacles such as jammed paper\r\n     - Overload of the mechanism\r\n     - Interfere with the ink system\r\n- Failed to read the CR encoder\r\n   2. Jumping of the CR timing belt\r\n   3. Contamination of the CR encoder scale\r\n   4. Damage or skew of the CR encoder FFC\r\n   5. Failure of the CR encoder sensor\r\n   6. Failure of the main board"
+
+[PRN_000040]
+MEANING="PF PID driving time error"
+DESCRIPTION="Malfunction or crash of the firmware\r\n   The PE sensor remains in paper detection status\r\n       and a paper jam error occurs instead of causing a fatal error."
+
+[PRN_000041]
+MEANING="PF PID excess load error"
+DESCRIPTION="- The PF motor stopped running in the middle of the operation\r\n   1. The PF was stopped by;\r\n     - Obstacles such as jammed paper\r\n     - Overload of the paper feed mechanism\r\n     - Disengaging or breakage of the gears\r\n- Failed to read the PF motor encoder\r\n   2. Contamination of the PF encoder scale\r\n   3. Disconnection, break, skew or damage\r\n       of the PF motor cable/encoder FFC\r\n   4. Failure of the PF motor (not completely broken)\r\n   5. Failure of the main board"
+
+[PRN_000042]
+MEANING="PF PID excess speed error"
+DESCRIPTION="- Failed to read the PF motor encoder\r\n   1. Contamination of the PF encoder scale\r\n   2. Skew or damage of the PF encoder FFC\r\n   3. Failure of the PF encoder sensor\r\n- Failure of the PF motor driver\r\n   4. Failure of the main board"
+
+[PRN_000043]
+MEANING="PF PID reverse error"
+DESCRIPTION="- Paper feed fails, stopped by obstacles\r\n   1. Paper feed was stopped by;\r\n     - Obstacles such as jammed paper\r\n     - Overload of the paper feed mechanism\r\n     - Disengaging or tooth breakage of wheel train\r\n        of the paper feed mechanism\r\n- Failed to read the PF motor encoder\r\n   2. Contamination of the PF encoder scale\r\n   3. Skew or damage of the PF encoder FFC\r\n   4. Failure of the PF encoder sensor\r\n   5. Failure of the main board"
+
+[PRN_000044]
+MEANING="PF PID lock error"
+DESCRIPTION="- The PF motor did not run or obstacles exist in the paper path\r\n   1. Overload of the paper feed mechanism\r\n   2. The PF timing belt become frayed, jumping,\r\n        or the wheel train of paper feed mechanism\r\n        is disengaged or its tooth is broken\r\n- Failed to read the PF motor encoder\r\n   3. Contamination of the PF encoder scale\r\n   4. Disconnection, break, skew or damage of the PF encoder FFC\r\n   5. Failure of the PF encoder sensor\r\n   6. Failure of the PF motor (the lead wire is broken\r\n       or the connector is disconnected)\r\n   7. Failure of the main board"
+
+[PRN_000050]
+MEANING="PF load position driving time error"
+DESCRIPTION="Malfunction or crash of the firmware"
+
+[PRN_000051]
+MEANING="PF load position excess load error"
+DESCRIPTION="- The PF motor stopped running in the middle of the operation\r\n   1. The PF was stopped by;\r\n     - Obstacles such as jammed paper\r\n     - Overload of the paper feed mechanism\r\n     - Disengaging or breakage of the gears\r\n- Failed to read the PF motor encoder\r\n   2. Contamination of the PF encoder scale\r\n   3. Failure of the PF motor (not completely broken)\r\n   4. Failure of the main board"
+
+[PRN_000052]
+MEANING="PF load position excess speed error"
+DESCRIPTION="- Failed to read the PF motor encoder\r\n   1. Contamination of the PF encoder scale\r\n   2. Skew or damage of the PF encoder FFC\r\n   3. Failure of the PF encoder sensor\r\n- Failure of the PF motor driver\r\n   4. Failure of the main board"
+
+[PRN_000053]
+MEANING="PF load position reverse error"
+DESCRIPTION="- Paper feed fails, stopped by obstacles\r\n   1. Paper feed was stopped by;\r\n     - Obstacles such as jammed paper\r\n     - Overload of the paper feed mechanism\r\n     - Disengaging or tooth breakage of wheel train\r\n        of the paper feed mechanism\r\n- Failed to read the PF motor encoder\r\n   2. Contamination of the PF encoder scale\r\n   3. Skew or damage of the PF encoder FFC\r\n   4. Failure of the PF encoder sensor\r\n   5. Failure of the main board"
+
+[PRN_030001]
+MEANING="PE detector Error"
+DESCRIPTION="- PE Sensor damage\r\n- Failure of the Main Board\r\n　*Occurs when the light value became lower than the threshold value in light value adjustment."
+
+[PRN_030003]
+MEANING="PE sensor light value adjust error"
+DESCRIPTION="- PE Sensor damage\r\n- Failure of the Main Board\r\n　*Cannot detect paper even the light value was\r\nraised to maximum in light value adjustment."
+
+[PRN_030005]
+MEANING="Abnormal temperature of internal power supply unit (less than lower limit value)
+* Occurrs after paper feed, before printing started"
+DESCRIPTION="- Break or damage of the power supply cable\r\n- Failure of the power supply unit (Thermistor open failure)\r\n- Failure of the Main Board (Failure of circuit to detect temperature)"
+
+[PRN_030006]
+MEANING="Abnormal power supply internal temperature (above the upper limit value)
+* Occurrs after paper feed, before printing started"
+DESCRIPTION="・Failure of the power supply unit (Overtemperature rise)\r\n   1. Commingling of foreign object with power supply unit\r\n       (Thermistor short, Overtemperature rise by leakage）\r\n・Failure of the Main Board\r\n   2. Foreign object attached to Main Board or connector\r\n   3. Failure of circuit to detect temperature"
+
+[PRN_031001]
+MEANING="HeadHot detect error (pre printing)"
+DESCRIPTION="- Disconnection, break, skew or damage of the head FFC\r\n- Overheat of the printhead\r\n   1. Failure of the printhead\r\n   2. Failure of the main board\r\n      Occurs in-between print passes\r\n         (after printing one pass and before printing the next pass)"
+
+[PRN_031002]
+MEANING="HeadHot detect error (after flushing)"
+DESCRIPTION="- Disconnection, break, skew or damage of the head FFC\r\n- Overheat of the printhead\r\n   1. Failure of the printhead\r\n   2. Failure of the main board\r\n      Occurs every after ink flushing operation\r\n          (Flushing before starting printing, flushing\r\n           after manual cleaning and etc.)"
+
+[PRN_031003]
+MEANING="Transistor temperature error"
+DESCRIPTION="- Protect function of head driving circuit operated when Continuing high load printing under high temperature environment\r\n- Failure of the main board\r\n- Occurs after receiving a print job and starting printing"
+
+[PRN_031004]
+MEANING="Head temperature error"
+DESCRIPTION="- Disconnection, break, skew or damage of the head FFC\r\n     Occurs after receiving a print job and starting printing\r\nFailure of the thermistor inside the printhead.\r\n        Temperature around the printhead is out of the range from -20 to 80 degrees C."
+
+[PRN_031005]
+MEANING="Head hot detect error (when changing ink)"
+DESCRIPTION="- Disconnection, break, skew or damage of the head\r\nFFC\r\n- Overheat of the printhead\r\n1. Failure of the printhead\r\n2. Failure of the Main Board\r\n- Occurs when changing the Ink Cartridge.\r\n(When cartridge moved to the replacing position.)"
+
+[PRN_031006]
+MEANING="Blowout of a fuse error (Head)"
+DESCRIPTION="- Failure of the power source for the\r\nprinthead\r\n  1. Failure of the circuit Disconnection, break, skew, or\r\ndamage of the head FFC\r\n  2. Blowout of fuse on the main board Failure of the printhead\r\n     Occurs at power-on, when replacing the ink cartridge, inbetween print passes, and after flushing operation"
+
+[PRN_031008]
+MEANING="VBS overvoltage error"
+DESCRIPTION="1. Head FFC failure (skew, foreign object attached)\r\n2. Failure of the head\r\n3. Failure of the main board\r\n(Occurrence frequency based on past record is 1. > 2. > 3.)"
+
+[PRN_033003]
+MEANING="Other Ink device error"
+DESCRIPTION="- Error in the printer settings\r\n- Failure of the main board\r\n     Occurs at power-on"
+
+[PRN_033004]
+MEANING="Other Ink device error"
+DESCRIPTION=""
+
+[PRN_033005]
+MEANING="Other Ink device error"
+DESCRIPTION=""
+
+[PRN_034001]
+MEANING="Home position error"
+DESCRIPTION="This error code is not displayed but the\r\nerror history is saved.\r\n- The carriage does not move\r\n  1. Overload of the carriage drive mechanism (paper jam, foreign object)\r\n  2. Failure of the ink system\r\n  3. Failure of the CR motor\r\n  4. Failure of the main board"
+
+[PRN_060002]
+MEANING="Driver mismatch error"
+DESCRIPTION="- Non-supported printer driver\r\n- Mismatch between custom printer driver and custom printer."
+
+[SYS_202620]
+MEANING="Wi-Fi Board failure"
+DESCRIPTION="Failure or disconnection of the wireless network board"
+

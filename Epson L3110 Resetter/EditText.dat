@@ -1,0 +1,157 @@
+[SELECT_PARTS_DIALOG]
+; 01000225
+GUIDANCE="Select from the chart below the parts you replaced or remove and click the OK button. The required adjustments will automatically be decided and the correct order in which they are to be performed will be displayed."
+GUIDANCE_dir="0"
+
+[INDIVIDUAL_LIST]
+; 01000161
+GUIDANCE="Select an adjustment item from the below window and double-click to execute it."
+GUIDANCE_dir="0"
+
+[EEPROM_COPY]
+; 01000246
+GUIDANCE="This function copies selected data from current main board to new main board.\r\n1) Please select item that dose backup.\r\n2) Click [Backup] button to backup selected data from current main board.\r\n3) Turn off the printer and replace current main board with new one.\r\n4) Turn on the printer again and click [Restore] button to save selected data on new main board."
+GUIDANCE_dir="0"
+
+[EEPROM_INITIALIZE]
+; 01000130
+GUIDANCE="NOTE : Please don't execute this function when backing up the EEPROM data with EEPROM Data Copy function.\r\n\r\n1) Please select item that does initialization, and click the [Perform] button.\r\n    -[Initial setting] : Writing initial setting value to EEPROM.\r\n    -[Product Serial No.] : Writing Product Serial No. to EEPROM.\r\n    -[MAC Address] : Writing MAC Address to EEPROM.\r\n2) Click the [Check] button to read out current setting values."
+GUIDANCE_dir="0"
+
+[PF_DETERIORATION_OFFSET]
+; 01000207
+GUIDANCE="1) Click [Initialization] button to reset current PF deterioration value to \"Zero\"."
+GUIDANCE_dir="0"
+
+[PWSENSOR_DETERIORATION_COUNTER_INIT]
+; 01000273
+GUIDANCE="1) Click [Initialization] button to reset current PW sensor deterioration counter to \"Zero\"."
+GUIDANCE_dir="0"
+
+[HEAD_ID_INPUT]
+; 01000155
+GUIDANCE="[Method to input the Head ID]\r\n1) Input Head ID in the edit box.\r\n2) Click [Input] button to record Head ID to the EEPROM.\r\n     If error message is displayed, please input Head ID again.\r\n\r\n[How to check current Head ID]\r\n1) Click [Check] button to check current Head ID."
+GUIDANCE_dir="0"
+
+[TOF_ADJUSTMENT]
+; 01000235
+GUIDANCE="1) Set A4 size Matte Paper in the ASF.\r\n2) Click [Print] button to print check pattern.\r\n3) Select the number of the pattern with the best alignment from the list.\r\n4) Choose the selected pattern from the edit box.\r\n5) Click [Input] button to record the parameter to the EEPROM."
+GUIDANCE_dir="0"
+
+[HEAD_ANGULAR]
+; 01000248
+GUIDANCE="1) Set A4 size Plain Paper in the ASF.\r\n2) Click [Print] button to print a check pattern.\r\n3) Choose the number of the pattern having the best alignment from the printed check pattern.\r\n4) Input the number in the edit box (both "1 to 80" and "80 to 1" side).\r\n5) Click [Input] button to record the correction parameter to the EEPROM."
+GUIDANCE_dir="0"
+
+[MANUAL_BID]
+; 01000249
+GUIDANCE="1) Set A4 size Plain Paper in the ASF.\r\n2) Click [Print] button to print check pattern of selected dot size.\r\n3) Select the number of the pattern with the best alignment from the list.\r\n4) Choose the selected pattern from the edit box.\r\n5) Click [Input] button to record the parameter to the EEPROM.\r\n    For the case where there is no best pattern, you should input the maximum or\r\n     minimum parameter of the test pattern which ever is most appropriate.\r\n     The offset value will be printed in the center position the next time the check pattern is printed.\r\n     Please repeat this adjustment until you can select the best pattern."
+GUIDANCE_dir="0"
+
+[PW_ADJUSTMENT]
+; 01000215
+GUIDANCE="1) Set A4 size Matte Paper in the ASF.\r\n2) Click [Print] button to print check pattern.\r\n3) Select the number of the pattern with the best alignment from the list.\r\n4) Choose the selected pattern from the edit box.\r\n5) Click [Input] button to record the parameter to the EEPROM.\r\n\r\n[How to select the best line]\r\n1) The printed line on should be 5mm away from each of the paper's edges.\r\n2) Choose the selected pattern from edit box."
+GUIDANCE_dir="0"
+
+[FIRST_DOT]
+; 01000217
+GUIDANCE="1) Set A4 size Matte Paper in the ASF.\r\n2) Click [Print] button to print check pattern.\r\n3) Select the number of the pattern with the best alignment from the list.\r\n4) Choose the selected pattern from the edit box.\r\n5) Click [Input] button to record the parameter to the EEPROM.\r\n\r\n[How to select the best line]\r\n1) The printed line on should be 5mm away from each of the paper's edges.\r\n2) Choose the selected pattern from edit box."
+GUIDANCE_dir="0"
+
+[PE_ADJUSTMENT]
+; 01000268
+GUIDANCE="1) Set A4 size Plain Paper on ASF.\r\n2) Click [Perform] button to perform PE adjustment and record the adjustment value to the EEPROM."
+GUIDANCE_dir="0"
+
+[PF_ADJUSTMENT]
+; 01000198
+GUIDANCE="1) Set A4 size Matte Paper in the ASF.\r\n2) Click [Print] button to print check pattern.\r\n3) Select the number of the pattern with the best alignment from the list.\r\n4) Choose the selected pattern from the edit box.\r\n5) Click [Input] button to record the parameter to the EEPROM."
+GUIDANCE_dir="0"
+
+[PF_BAND_ADJUSTMENT]
+; 01000250
+GUIDANCE="1) Set A4 size Plain Paper in the ASF.\r\n2) Click [Print] button to print check pattern.\r\n3) Select the number of the pattern with the best alignment from the list.\r\n4) Choose the selected pattern from the edit box.\r\n5) Click [Input] button to record the parameter to the EEPROM."
+GUIDANCE_dir="0"
+
+[PAPER_SKEW_ADJUSTMENT]
+; 01000269
+GUIDANCE="NOTE : Adjust Paper Skew after adjusting Bi-D.\r\n1) Set A4 size Plain Paper in the ASF.\r\n2) Click [Print] button on the [Adjustment Pattern] to print adjustment pattern.\r\n3) Select the value with the smallest gap respectively of #1 - #4, and input it to the Edit box.\r\n4) Click [Input] button to save the adjustment value into EEPROM.\r\n5) Click the [Check] button to check the current adjustment values.\r\n6) Place A4 size Plain Paper in the ASF.\r\n7)  Click [Print] button on the [Check Pattern] to print check pattern.\r\n8) Judge whether to have been adjusted correctly from the check pattern."
+GUIDANCE_dir="0"
+
+[CLEANING]
+; 01000120
+GUIDANCE="1) Click [Print] button to print nozzle check pattern print.\r\n2) If dot missing appears, click [Cleaning] button to perform a cleaning.\r\n3) Click [Print] button to print nozzle check pattern print again.\r\n4) If dot missing is not recovered, repeat from step 2) to step 3)."
+GUIDANCE_dir="0"
+
+[INK_CHARGE]
+; 01000163
+GUIDANCE="1) Click [Ink Charge] button to perform ink charge.\r\n2) Click [Print] button to print nozzle check pattern print.\r\n3) If dot missing appears, click [Cleaning] button to perform a cleaning.\r\n4) Click [Print] button to print nozzle check pattern print again.\r\n5) If dot missing is not recovered, repeat from step 3) to step 4)."
+GUIDANCE_dir="0"
+
+[INK_PAD_COUNTER]
+; 01000171
+GUIDANCE="NOTE : You have to replace waste ink pad if you initialize the protection counter.\r\n1) Click [Check] button to check current protection counter's value.\r\n2) Replace waste ink pad with new one.\r\n3) Click [Initialization] to reset current protection counter to the initial value."
+GUIDANCE_dir="0"
+
+[SHIPPING_SETTING]
+; 01000255
+GUIDANCE="This function will have a cleaning process performed automatically when the printer is turned on.\r\n1) Please use this function in case of nozzle clogging during transport. After clicking the \"Write\" button, the shipping settings will be written to the devise.\r\n2) The shipping settings will be recorded when the printer is turned off and applied automatically the next time it is turned on.\r\nAttention:\r\nThis function resets the shipping settings if the printer is turned on. In this situation, it is necessary to reset the shipping settings once again before turning off the power."
+GUIDANCE_dir="0"
+
+[CHECK_PATTERN_PRINT]
+; 01000119
+GUIDANCE="1) Click [Print] button to print selected pattern."
+GUIDANCE_dir="0"
+
+[CHECK_PATTERN_PRINT_LS]
+GUIDANCE="[Check Pattern Print]\r\n1) Click [Print] button to print selected pattern.\r\n\r\n[Limit Sample / Standard View]\r\n1) Click the [View] or [Standard] button to display the limit samples or standard corresponding to the item that is selected in the [Print]."
+GUIDANCE_dir="0"
+
+[EEPROM_READOUT]
+; 01000133
+GUIDANCE="1) Click [Dump] button to read out and save all of EEPROM data."
+GUIDANCE_dir="0"
+
+[OPERATION_INFO]
+; 01000187
+GUIDANCE="1) Click the [Check] button to read out the printer information."
+GUIDANCE_dir="0"
+
+[PAPER_FEED_TEST]
+; 01000190
+GUIDANCE="1) Set A4 size Plain Paper in the ASF.\r\n2) Set the number of sheets and click [Perform] button."
+GUIDANCE_dir="0"
+
+[HEAT_PROTECTION]
+; 01000158
+GUIDANCE="1) Select replacement parts from the following check boxes.\r\n2) Click [Perform] button to record the proper value of CR motor heat protection to the EEPROM for the selected replacement parts."
+GUIDANCE_dir="0"
+
+[PF_HEAT_PROTECTION]
+; 01000211
+GUIDANCE="1) Select replacement parts from the following check boxes.\r\n2) Click [Perform] button to record the proper value of PF motor heat protection to the EEPROM for the selected replacement parts."
+GUIDANCE_dir="0"
+
+[SCN_HEAT_PROTECTION]
+; 01000253
+GUIDANCE="1) Select replacement parts from the following check boxes.\r\n2) Click [Perform] button to record the proper value of scanner motor heat protection to the EEPROM for the selected replacement parts."
+GUIDANCE_dir="0"
+
+[PHOTO_SENSOR]
+; 01000271
+GUIDANCE="1) Set A4 size Plain Paper in the ASF.\r\n2) Click [Perform] button to load the paper and adjust the light level of specified photo sensor."
+GUIDANCE_dir="0"
+
+[PIS_CHECK]
+; 01000254
+GUIDANCE="1) Click [Perform] button to check the PIS(Photo Ink Sensor) board.\r\n2) If the sensor has reached the end of its life, please replace the PIS board."
+GUIDANCE_dir="0"
+
+[INK_DISCHARGE]
+; 01000252
+GUIDANCE="1) Install the Jig.\r\n2) Use the shipping liquid.\r\n3) Click the [Perform] button to start the discharge.\r\n4) Please discharge the shipping liquid outside of the printer when you execute this function. Otherwise ink may leak from the waste ink pad at user side."
+GUIDANCE_dir="0"
+
+[FACTORY_SETTING]
+GUIDANCE="1) Click [Write] button to clear all the user settings and write the factory settings.\r\n2) When the printer is turned off, the setting is registered.\r\n- If \"Set initial charge flag\" is checked, initial ink charging will be executed at the next power ON."
+GUIDANCE_dir="0"
